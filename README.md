@@ -18,12 +18,13 @@ Ditulis ulang dari proyek asli [kevinam99/Instagram-Like-Bot](https://github.com
 ```bash
 git clone https://github.com/spyschools/Instagram-Like-Bot.git
 cd Instagram-Like-Bot
+chmod +x install.sh
 ./install.sh
 ```
 
 ## Pemakaian
 ```bash
-source venv/bin/activate
+source venv/bin/activate && python3 main.py
 
 # GUI
 python3 main.py
